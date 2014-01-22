@@ -1,38 +1,40 @@
 {
-  "name": "baucis-swagger",
-  "version": "0.2.2",
-  "description": "Generate customizable swagger definitions for your Baucis REST API.",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha --bail --timeout 5000"
-  },
-  "author": {
-    "name": "William Riley-Land"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "deco": "~0.3.2",
-    "baucis": "~0.14.1"
-  },
-  "peerDependencies": {
-    "mongoose": "~3.8.1"
-  },
-  "devDependencies": {
-    "mocha": "~1.8.2",
-    "expect.js": "~0.2.0",
-    "request": "~2.21.0",
-    "mongoose": "~3.8.1",
-    "express": "~3.4.6",
-    "baucis": ">=0.14.1",
-    "async": "~0.2.9"
-  },
-  "keywords": [
-    "baucis",
-    "REST",
-    "RESTful",
-    "API",
-    "plugin",
-    "swagger",
-    "documentation"
-  ]
+    "name": "baucis-swagger",
+    "version": "0.2.2",
+    "description": "Generate customizable swagger definitions for your Baucis REST API.",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha --bail --timeout 5000"
+    },
+    "author": {
+        "name": "William Riley-Land"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "deco": "~0.3.2",
+        "baucis": "~0.14.1",
+        "mongoose-schema": "~0.0.1"
+    },
+    "peerDependencies": {
+        "mongoose": "~3.8.1"
+    },
+    "devDependencies": {
+        "mocha": "~1.8.2",
+        "expect.js": "~0.2.0",
+        "request": "~2.21.0",
+        "mongoose": "~3.8.1",
+        "express": "~3.4.6",
+        "baucis": ">=0.14.1",
+        "async": "~0.2.9"
+    },
+    "keywords": [
+        "baucis",
+        "REST",
+        "RESTful",
+        "API",
+        "plugin",
+        "swagger",
+        "documentation"
+    ]
+
 }
